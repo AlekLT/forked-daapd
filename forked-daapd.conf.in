@@ -36,7 +36,7 @@ general {
 #	trusted_networks = { "localhost", "192.168", "fd" }
 
 	# Enable/disable IPv6
-	ipv6 = yes
+	ipv6 = no
 
 	# Location of cache database
 #	cache_path = "@localstatedir@/cache/@PACKAGE@/cache.db"
@@ -59,7 +59,7 @@ general {
 library {
 	# Name of the library as displayed by the clients
 	# %h: hostname, %v: version
-	name = "My Music on %h"
+	name = "%h"
 
 	# TCP port to listen on. Default port is 3689 (daap)
 	port = 3689
@@ -68,7 +68,7 @@ library {
 #	password = ""
 
 	# Directories to index
-	directories = { "/srv/music" }
+	directories = { "/mnt/Music" }
 
 	# Follow symlinks. Default: true.	
 #	follow_symlinks = true
@@ -99,7 +99,7 @@ library {
 	# artist to be listed when artist browsing in Remote, you can set
 	# a single name which will be used for all music in the compilation dir
 	# (changing this setting only takes effect after rescan, see the README)
-	compilation_artist = "Various artists"
+	compilation_artist = "Various Artists"
 
 	# If your album and artist lists are cluttered, you can choose to hide
 	# albums and artists with only one track. The tracks will still be
