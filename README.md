@@ -1,1 +1,1 @@
-Changed sorting behaviour. Anyone looking at this that isn't me is in the wrong place.
+Changed sorting behaviour. Anyone looking at this who isn't me is in the wrong place.
